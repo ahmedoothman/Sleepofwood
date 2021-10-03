@@ -1,0 +1,385 @@
+@import url('https://fonts.googleapis.com/css?family=Pacifico|Roboto|Roboto+Slab|Yellowtail&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    
+}
+html{
+    background: #fff;
+    color: #555;
+    font-family: 'lato','Arial','sansirf';
+    font-weight: 300;
+    text-rendering: optimizeLegibility;
+    overflow-x: hidden;
+}
+.clearfix{zoom:1}
+.clearfix:after{
+    content: '.';
+    clear:both;
+    display:block;
+    height:0;
+    visibility: hidden;
+}
+/*****************************************************/
+/**********GLOBAL CODE********/
+/****** FOR (WHAT-IS),(FACILITY)AND(FAQS) PAGES**********/
+/*****************************************************/
+
+.row{
+    max-width: 1140px;
+    margin: 0 auto 0 auto;
+}
+section{
+    padding: 80px 0;
+}
+h1{
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    word-spacing: 4px;  
+}
+h2{
+    font-weight: 300;
+    font-size: 180%;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+h2:after{
+    display: block;
+    height:2px;
+    background-color:#434340;
+    content:' ';
+    width: 100px;
+    margin:0 auto;
+    margin-top:30px;
+}
+.longcopy{
+  font-size:22px;
+  font-family: "Roboto Slab";
+  font-weight:400;
+  color: rgb(87, 87, 86);
+  line-height: 1.423;
+  text-align: left;
+ 
+
+}
+
+/*****************************************************/
+/**********HEADER-SECTION********/
+/****** FOR (WHAT-IS),(FACILITY)AND(FAQS) PAGES**********/
+/*****************************************************/
+
+
+header{
+    background-color:#434340; 
+}
+.logo{
+    height:50px;
+    width:auto;
+    margin: 0px;
+}
+.main-navo{
+  float:right;
+  list-style: none;
+  margin-top:20px;
+}
+.main-navo li{
+    display: inline-block;
+    margin-left:40px;
+    
+}
+.main-navo li a{
+       text-decoration: none;
+    color:white;
+    text-transform: uppercase;
+    font-size:90%;
+    padding:8px 0;
+    padding-bottom: 16.2px;
+    border-bottom: 3px solid transparent;
+   
+    transition: 0.2s; 
+}
+.main-navo li a:hover{
+    border-bottom: 3px solid #53bbff;
+}
+
+/*****STICK NAV FOR WHAT-IS PAGE*****/
+
+.stick-whatis{
+    position: fixed;
+    top:0;
+    left:0;
+    width: 100%;
+    z-index: 1999;
+    background:#434340; 
+    
+}
+
+/*****STICK NAV FOR FACILITY PAGE*****/
+
+.stick-faci{
+    position: fixed;
+    top:0;
+    left:0;
+    width: 100%;
+    z-index: 1999;
+    background:#434340; 
+    
+}
+
+/********USED IN ALL PSGES*********/
+
+.mob-nav-icon{
+    float:right;
+    margin-top:18px;
+    color:white;
+    font-size:25px;
+    cursor:pointer;
+    display: none;
+}
+.active{
+    border-bottom: 3px solid #53bbff;
+    padding-bottom: 15px;
+}
+/*****************************************************/
+/**********WHAT-IS-SECTION********/
+/****** FOR (WHAT-IS)PAGE**********/
+/*****************************************************/
+
+
+.what-is-section{
+    padding-top:150px;
+}
+.edit{
+    margin:6% auto ;
+    height:auto;
+    min-height:68%;
+    width:95%;
+    min-height: calc(100vh - 100px- 44px);
+
+   /*  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+}
+@media only screen and (max-width: 800px) {
+    .edit{
+        margin:6% auto ;
+        height:auto;
+        min-height:150%;
+        width:100%;
+        min-height: calc(100vh - 100px- 44px);
+    }
+    .big{
+        display:block;
+        height:600px;
+    }
+  }
+  .big{
+    display:none;
+    height:600px;
+}
+
+.title{
+    height: 50px;
+    width:100%;
+    /* margin:8% auto; */
+    background:	#434340;
+    margin-bottom:0%;
+    transition:.8s;
+    font-weight: 300;
+    color:white;
+    border-top: white solid 1px;
+}
+.title:hover{
+
+    background:#575755;
+    margin-bottom:0%;
+    /* padding: .2%; */
+    color:white;
+    font-weight: 300;
+    cursor: pointer;
+}
+.tit{
+    font-family:'Pacifico';
+     padding-left:.8%;
+    padding-top: 10px;
+}
+#tit1{
+    border-top:none;
+    padding-top:2px;
+}
+.conter{
+    display: block;
+    height:auto;
+    width:100%;
+   /*  margin:0px auto; */
+    padding:2% 2%;
+    background: #f4f4f4;
+    
+}
+.conm{
+    
+        font-family: 'Nunito', sans-serif;
+        font-size: 17px;
+}
+.soy{
+    font-size:15px;
+   font-weight: 700;
+    display:;
+}
+#tit{
+    display: inline-block;
+}
+
+#conter1{
+    display: none;
+    width:100%;
+    height:auto;
+
+}
+#conter11{
+    display: none;
+    width:100%;
+    height:auto;
+
+}
+#conter111{
+    display: none;
+    width:100%;
+    height:auto;
+}
+#conter110{
+    display: none;
+    width:100%;
+    height:auto;
+}
+#conter120{
+    display: none;
+    width:100%;
+    height:auto;
+}
+.padd{
+    padding-left: 20PX;
+}
+/*****************************************************/
+/**********CONTACT-SECTION********/
+/****** FOR (WHAT-IS),(FACILITY)AND(FAQS) PAGES**********/
+/*****************************************************/
+
+.section-contact{
+    background-image:url(img/contact.png);
+    background-size: cover;
+    background-position: center;
+    background-attachment:;
+}
+.contact-up{
+    margin-top: 50px;
+    justify-content: center;
+    text-align: center;
+}
+.raw{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 35px;
+}
+.icon{
+    padding-right: 15px;
+    color: #336e94;
+}
+
+
+.sm-tit-contact{
+  
+  text-transform: none;
+  font-family: "Pacifico";
+  color: rgb(51, 110, 148);
+  line-height: 1.2;
+  text-align: center;
+
+
+}
+.contact-box{
+    border-right:2px solid #336e94;
+}
+.contact-box:last-child{
+    border-right:none;
+}
+.tele-cont{
+
+  
+  font-family: "Roboto Slab";
+  color: rgb(80, 80, 76);
+  font-weight: bold;
+  line-height: 1.2;
+  text-align: center;
+ 
+
+}
+
+/*****************************************************/
+/**********FOOTER********/
+/****** FOR (WHAT-IS),(FACILITY)AND(FAQS) PAGES**********/
+/*****************************************************/
+
+.sm-p{
+    font-size:18px;
+  font-family: 'Roboto Slab', ;
+    font-weight: 200;
+  color: rgb(250, 250, 248);
+  line-height: 1.2;
+  text-align: left;
+
+}
+footer{
+    background-color:#434340; 
+    height:auto;
+}
+.footer-up{
+    margin-top: 0px;
+}
+.foot-box{
+    justify-content: center;
+    position: relative;
+    padding: 70px;
+}
+.foot-tit{
+
+ text-transform: none;
+    font-size:30px;
+  font-family: "Yellowtail";
+  color: #4cb1f2;
+  line-height: 1.2;
+  text-align: left;
+}
+.btn-foot{
+    width:120px;
+    background: #3a84b4;
+    height: 40px;
+    padding: 5px 20px;
+    color:white;
+    text-decoration: none;
+    font-family: "Pacifico";
+    border-radius: 12px;
+    text-align: center;
+    transition: .5s;
+    
+}
+.btn-align{
+    width:50%;
+    margin: 0 auto;
+}
+.btn-foot:hover{
+    background:#336e94;
+}
+
+.copyri{
+ color:white;
+}
+.copy{
+    color:white;
+    text-align: center;
+    font-size: 12px;
+   
+}

@@ -1,0 +1,213 @@
+.faqs-section{
+    background-color: #f7f7f7;
+    height:560px;
+    padding-top: 115px;
+}
+.fac-tit-cc{
+    font-weight: 500;
+    font-size: 120%;
+    text-transform:lowercase;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    text-align:center;
+    margin-bottom: 0px;
+    color: rgb(51, 110, 148); 
+}
+.fac-tit-cc:after{
+    display: block;
+    height:2px;
+    background-color:#434340;
+    content:' ';
+    width:0px;
+    margin:0 auto;
+    margin-top:0px;
+}
+.btn-center{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin: 0 auto;
+    margin-top: 20px;
+    width:71.3%;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    text-align: center;
+    
+}
+.btn-show{
+   
+    color:white;
+    padding: 4px 0px;
+    margin-right: 30px;
+    font-family: 'roboto';
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    cursor: pointer;
+    -webkit-transition: 0.4s;
+    transition: 0.4s;
+    text-align: center;
+    width:100%;
+}
+.btn-show:last-child{
+   
+    color:white;
+/*    padding: 2px 30px;*/
+    margin-right: 0px;
+    font-family: 'roboto';
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    cursor: pointer;
+    -webkit-transition: 0.4s;
+    transition: 0.4s;
+}
+.btn-show:last-child:hover{
+    background: rgb(51, 110, 148);
+    color:white;
+/*    padding: 2px 30px;*/
+    margin-right: 0px;
+    font-family: 'roboto';
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    cursor: pointer;
+    -webkit-transition: 0.4s;
+    transition: 0.4s;
+}
+.btn-show:hover{
+    background: rgb(51, 110, 148);
+    color:white;
+/*    padding: 2px 30px;*/
+    margin-right: 30px;
+    font-family: 'roboto';
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+#btn-show-first{
+    background:rgb(51, 110, 148);
+}
+#btn-show-mid{
+    background: #555;
+}
+#btn-show-last{
+    background: #555;
+}
+.content-box{
+    width: 71.3%;
+    height:auto;
+    background-color: white;
+    margin: 0 auto;
+    padding: 30px;
+}
+#box-1{
+    display: block;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+#box-2{
+    display: none;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+#box-3{
+    display: none;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+.q-section{
+    height:620px;
+}
+.box-q{
+    padding: 30px;
+}
+.q-btn{
+    width:100%;
+    background: #555;
+    color:white;
+    padding: 10px;
+    font-family: "roboto";
+    border-top: 2px solid white;
+    cursor: pointer;
+}
+.q-cont{
+    padding: 20px;
+    height: auto;
+    background:#f7f7f7;
+    -webkit-transition: 1s;
+    transition: 1s;
+}
+#q-1{
+    display:block;
+    -webkit-transition: 1s;
+    transition: 1s;
+}
+#q-2{
+    display: none;
+    -webkit-transition: 1s;
+    transition: 1s;
+}
+#q-3{
+    display: none;
+    -webkit-transition: 1s;
+    transition: 1s;
+}
+#q-4{
+    display: none;
+    -webkit-transition: 1s;
+    transition: 1s;
+}
+.q-img{
+    width:75%;
+    height: auto;
+}
+.q-img-box{
+    display:-webkit-box;
+    display:-ms-flexbox;
+    display:flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    text-align: center;
+    
+    
+}
+
+.sticky {
+    position: fixed;
+    top:0;
+    left:0;
+    width:100%;
+    background: #434340;
+    z-index: 1999;
+}
+.sticky .logo{
+    height:52px;
+    width:auto;
+    float:left;
+    margin-top: 1px;
+}
+.sticky .main-navo{
+  float:right;
+  list-style: none;
+  margin-top: 15px;
+}
+.sticky .main-navo li{
+    display: inline-block;
+    margin-left:50px;
+    padding-top: 5px;
+    padding-bottom:15px;
+    
+}
+.sticky .main-navo li a{
+       text-decoration: none;
+    color:white;
+    text-transform: uppercase;
+    font-size:95%;
+    padding:16px 0;
+    border-bottom: 2px solid transparent;
+    -webkit-transition: 0.2s;
+    transition: 0.2s; 
+}
+.sticky .main-navo li a:hover{
+    border-bottom: 2px solid #fcfeb5;
+}
+

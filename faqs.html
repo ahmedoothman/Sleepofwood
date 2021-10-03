@@ -1,0 +1,169 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+                
+
+        
+      <!--GRIDS FOR ALL PAGES-->
+        <link rel="stylesheet" href="css/Grid.css">
+      
+      <!--Style COMMON SECTIONS /HEADER-NAV/ /CONTACT-SEC/ /FOOTER/ for (WHAT-IS),(FACILITY)and(FAQS)PAGES + /WHAT-IS SECTION/ -->
+      <link rel="stylesheet" href="css/mainly.css">
+      
+      <!--Style FAQS-SECTIONS -->
+      <link rel="stylesheet" href="css/faqs.css">
+      
+      <!--Mobile-Style ALL SECTIONS for (WHAT-IS),(FACILITY)and(FAQS)PAGES-->
+      <link rel="stylesheet" href="css/querie-main.css">
+      <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <title>FAQS</title>
+  </head>
+  <body>
+      
+    <header>
+      <nav class="stick-faci">
+       <div class="row">
+           <a href="index.html"><img src="pics/logo-main.png" class="logo"></a>
+          <ul class="main-navo">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="what%20is.html">What is?</a></li>
+            <li><a href="faciltiy.html">Faciltiy</a></li>
+            <li  class="active"><a href="faqs.html">Faqs</a></li>
+            <li><a href="#contact">Contact us</a></li>
+          </ul>
+           <a class="mob-nav-icon"><i class="fas fa-bars"></i></a>
+           </div>
+        </nav>
+      </header>
+      
+
+    <section class="faqs-section">
+      
+      <div class="row">
+       <h2>What is a sleep study?</h2>
+          <h2 class="fac-tit-cc">The most common sleep studies are</h2>
+     </div>
+     <div class="row">
+      <div class="btn-center">
+         <div class="btn-show" id="btn-show-first" onclick="hide()">Polysomnogram</div>
+         <div class="btn-show" id="btn-show-mid" onclick="show()">PAP Titration Study</div>
+         <div class="btn-show" id="btn-show-last" onclick="show1()">Multiple Sleep latency test (MSLT)</div>
+         </div>
+      <div class="content-box" id="box-1">
+         This is an overnight test to record several body functions during sleep, including brain activity, eye movement, blood oxygen levels, heart rate and rhythm, breathing rate and rhythm, the flow of air through your mouth and nose, snoring, body muscle movements, as well as chest and belly movement to determine respiratory effort. This combination of data allows us to diagnose a multitude of sleep  disorders to increase the overall health and quality of life of our  patients.
+         </div>
+          <div class="content-box" id="box-2">
+         For patients who test positive for Obstructive Sleep Apnea, the most effective and least invasive therapy is PAP.  This stands for Positive Airway Pressure. 
+        CPAP is most commonly used, and this stands for Continuous Positive Airway Pressure.  This therapy acts as a pressure stint to keep the airway open for patients who have difficulty breathing properly during sleep. 
+        This therapy increases ventilation and oxygenation to take the workload off of the heart and allow for a deeper more restorative sleep.  For this therapy to be most effective, the proper pressure for each patient must be identified.  Each patient is different in the same way a patient may need a higher or lower dosage of a medication than the next person.  This study is to find to most effective pressure for a patient based on how their body reacts to each pressure
+         </div>
+          <div class="content-box" id="box-3">
+         This test uses EEG to measure how long it takes you to fall asleep, as well as whether or not you enter REM sleep during the naps.  This is a common tool for diagnosing Narcolepsy.
+         </div>
+     </div>
+      </section>
+      
+      
+      
+      <section class="q-section ">
+         <div class="row">
+             <div class="col span-1-of-2 q-img-box">
+
+              <img src="pics/q-section.png.png" class="q-img" alt="Wonder-man">
+                 </div>
+            <div class="col span-1-of-2 box-q">
+              <div class="q-btn" onclick="showq1()">What do I bring?</div>
+                <div class="q-cont" id="q-1">
+                 We want you to be as comfortable as possible.  Please feel free to bring anything you would bring to a hotel as this is more of a hotel like atmosphere than a hospital room.  Also, feel free to bring any personal blankets or pillows you may have an attachment to.
+                </div>
+                   <div class="q-btn" onclick="showq2()">Are you going to give me anything to help me sleep?</div>
+                <div class="q-cont" id="q-2">
+                 No, unless your physician specifically prescribes it.  We try to make this as close to your normal sleep as possible.  Obviously, there are going to be some glaring differences, however, we would like you to stick to your normal routine as much as possible.  Continue to take your typical medications and try to do the things you would normally do aside from caffeine, alcohol, etc.
+                </div>
+                   <div class="q-btn" onclick="showq3()">What happens during the study?</div>
+                <div class="q-cont" id="q-3">
+              You should arrive at approximately 8:30-9:00pm.  Upon arrival you may be asked to fill out some paperwork and the technician will allow you to acclimate to the facility.  Electrode will be placed on your scalp for EEG monitoring using a conductive paste with the consistency of vaseline, we do not use glue.  There will be a few electrodes placed on your face for chin and eye measurements, your legs for leg movement, your chest for ECG, and one on your finger for oxygen saturation.  We use a combination of this data to diagnose and treat a multitude of sleep disorders and issues.
+                </div>
+                   <div class="q-btn" onclick="showq4()">I feel fine. Why do I need a sleep studey?</div>
+                <div class="q-cont" id="q-4">
+              Unfortunately there is no cookie cutter way to look at sleep.  There are over 80 different sleep disorders and each patient can present differently.  You may very well be doing damage to your body in the form of hypertension, heart disease, insulin resistance, weight gain, and various other underlying issues you wouldn’t actual “feel” or attribute to a sleep disorder.
+                </div>
+             </div>
+             
+             </div>
+                
+      </section>
+      
+      
+      <section class="section-contact" id="contact">
+       <div class="row">
+          <h2 class="tit-contact">Contact us</h2>
+          </div>
+          
+          
+          <div class="row contact-up">
+            <div class="col span-1-of-3 contact-box">
+              <h3 class="sm-tit-contact" >phone</h3>
+                <div class="raw"><i class="fas fa-phone-alt icon"></i><p class="tele-cont"> (281)789-4069</p></div>
+              </div>
+               <div class="col span-1-of-3 contact-box">
+              <h3 class="sm-tit-contact">fax</h3>
+                <div class="raw"><i class="fas fa-fax icon"></i><p class="tele-cont"> (281)738-5358</p></div>
+              </div>
+               <div class="col span-1-of-3 contact-box">
+              <h3 class="sm-tit-contact">Appointment Scheduling </h3>
+                <div class="raw"><i class="far fa-calendar-check icon"></i><p class="tele-cont">  832-779-6398</p></div>
+              </div>
+          </div>
+          
+          
+          <br><br>
+          <div class="row box-add">
+            <div class="col span-2-of-2 ">
+              <h3 class="sm-tit-contact" >Address</h3>
+                <div class="raw"><i class="fas fa-map-marked icon"></i><p class="tele-cont"> 6912 FM 1488 SUITE B. Magnolia Texas 77354</p></div>
+              </div>
+              
+          </div>
+      </section>
+      
+      
+      
+       <footer>
+      <div class="row footer-up">
+          <div class="col span-1-of-2 foot-box">
+            <h3 class="foot-tit">Are You A Candidate ?</h3><br>
+              <p class="longcopy sm-p">
+                  Sleep specialists use different methods to evaluate a patient's level of risk for sleep apnea. One of the most popular is the Epworth Scale. This is a universal evaluation tool used around the USA.
+              </p>
+              <br>
+              <br>
+              <div class="btn-align"><a class="btn-foot" href="data/SSOW-Screening-Questionnaire.pdf">Try it Now</a></div>
+          </div>
+          <div class="col span-1-of-2 foot-box">
+            <h3 class="foot-tit">Request A Consultation</h3><br>
+              <p class="longcopy sm-p">
+      Take two nights for the rest of your life.
+  Request a consultation now.
+              </p>
+          </div>
+          
+          </div>
+          <p class="copy">Content Copyright © 2020 · Sleep speacialies of the woodlands· All rights reserved</p><br>
+      </footer>
+      
+      
+      <!--JS FOR FAQS -->
+      <script src="js/faqs.js"></script>
+      
+      <!--JQUERY TO MAKE SCROLL FOE ALL PAGES -->
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+      <script src="js/jquery.waypoints.min.js"></script>
+      
+      <!--JQUERY CODE FOR ALL PAGES -->
+      <script src="js/main.js"></script>
+  </body>
+</html>
